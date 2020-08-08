@@ -1,0 +1,55 @@
+
+Windows:
+    Git Desktop
+    Git Bash => Intall => Option <Integrated with Command Prompt> 
+
+Ubunutu:
+    git -v
+
+1. Convert normal in to git project.
+
+    git init
+
+
+Creating Git Repository
+
+
+Types of Directories:
+
+1. Current working 
+    1. Untracked 
+    2. Modified
+2. Stagged Directory
+3. Local Repository
+4. Remote Repository 
+
+
+Current working  =>  Stagged Directory => Local Repository => Remote Repository  
+
+10 am => I want this change => Commit 1 
+11 am =>  I want this change  = Commit 2 
+
+EOD => Push this to remote repo 
+
+Git Setup:
+
+1. Creating SSH keys
+2. Contributors
+
+
+Basic Commands:
+
+Git clone <URL>
+Git add
+Git add .
+Git status
+Git pull 
+Git pull <Origin> <Branch>
+Git push
+Git push <Origin> <Branch>
+
+Git commit -m “msg”
+Git push 
+Git push <Origin> <Branch>
+
+asjhgjhasf
