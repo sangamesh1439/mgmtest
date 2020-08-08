@@ -1,53 +1,31 @@
 
-Windows:
-    Git Desktop
-    Git Bash => Intall => Option <Integrated with Command Prompt> 
+Installation:
+    Windows:
+        Git Desktop
+        Git Bash => Intall => Option <Integrated with Command Prompt> 
 
-Ubunutu:
-    git -v
-
-1. Convert normal in to git project.
-
-    git init
-
-
-Creating Git Repository
-
+    Ubunutu:
+        git -v
 
 Types of Directories:
-
-1. Current working 
-    1. Untracked 
-    2. Modified
-2. Stagged Directory
-3. Local Repository
-4. Remote Repository 
-
-
-Current working  =>  Stagged Directory => Local Repository => Remote Repository  
-
-10 am => I want this change => Commit 1 
-11 am =>  I want this change  = Commit 2 
-
-EOD => Push this to remote repo 
+    1. Current working 
+        1. Untracked 
+        2. Modified
+    2. Stagged Directory
+    3. Local Repository
+    4. Remote Repository 
 
 Git Setup:
-
-1. Creating SSH keys
-2. Contributors
-
+    1. Creating SSH keys
+    2. Contributors
 
 Basic Commands:
 
 Git clone <URL>
-Git pull 
-Git pull <Origin> <Branch>
-Git push
-Git push <Origin> <Branch>
 
-Git commit -m “msg”
-Git push 
-Git push <Origin> <Branch>
+
+Creating Git Repository In Remote & In Local Convert normal in to git project.
+    git init
 
 
 Adding Remote:
@@ -55,7 +33,6 @@ Adding Remote:
     git remote add origin git@github.com:sangamesh1439/mgmtest.git
 
 To check the status:
-
     git status 
 
 Move changes from Current working directory to  stagged Directory
@@ -71,15 +48,29 @@ Move changes from stagged Directory to Current working directory
 
 To discard changes from current working directory:
    
-    git reset restore
+    git restore filename
 
 To make commits
     git commit -m "Message"
 
 To push:
     git push
+    git push <Origin> <Branch>
 
 
+To pull:
+
+    Takes pull from default origin and current branch
+       git pull 
+    Takes pull from diff branch
+        git pull origin feature2
+    git pull <Origin> <Branch>
 
 
-Hey I changed notes
+When we pull
+1. You have some changes from same file
+    Git will not allow
+    Push changes first
+2. You dont have changes
+    Git allows
+
