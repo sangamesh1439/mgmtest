@@ -40,9 +40,6 @@ Git Setup:
 Basic Commands:
 
 Git clone <URL>
-Git add
-Git add .
-Git status
 Git pull 
 Git pull <Origin> <Branch>
 Git push
@@ -52,21 +49,28 @@ Git commit -m “msg”
 Git push 
 Git push <Origin> <Branch>
 
-asjhgjhasf
+
+Adding Remote:
+    git remote -v
+    git remote add origin git@github.com:sangamesh1439/mgmtest.git
+
+To check the status:
+
+    git status 
+
+Move changes from Current working directory to  stagged Directory
+
+    git add .
+    git add <filename>
+
+Move changes from stagged Directory to Current working directory
+
+    git reset HEAD 
+    git reset HEAD .
+    git reset HEAD <Filename>
+
+To discard changes from current working directory:
+   
+    git reset restore
 
 
-
-git remote -v
-
-git remote add origin git@github.com:sangamesh1439/mgmtest.git
-
-
-jagsfk
-as
-f
-asjhgjhasfsf
-
-a
-sf
-as
-f
