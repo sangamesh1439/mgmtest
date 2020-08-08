@@ -73,4 +73,12 @@ To discard changes from current working directory:
    
     git reset restore
 
+To make commits
+    git commit -m "Message"
+
+To push:
+    git push
+
+
+
 
