@@ -53,3 +53,15 @@ Git push
 Git push <Origin> <Branch>
 
 asjhgjhasf
+
+
+
+git remote -v
+
+git remote add origin git@github.com:sangamesh1439/mgmtest.git
+
+
+jagsfk
+as
+f
+asjhgjhasfsf
