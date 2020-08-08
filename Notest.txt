@@ -82,4 +82,26 @@ To push:
 
 
 
-Hey I changed notes
+
+This will generate key:
+
+
+ssh-keygen
+
+
+id_rsa: Private Key
+id_rsa.pub : Public Key
+
+
+Identify the paths
+
+
+Users/sangameshsomawar/.ssh/
+
+Open GitHub
+Go to settings
+Open SSH & GPG keys
+Add Key
+
+
+
