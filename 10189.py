@@ -26,7 +26,11 @@ def minesweeper(n, m, field):
 fieldCount = 1
 for nm in sys.stdin:
     [n, m] = map(int, nm.split(" "))
-    
+    if(n==0 or m==0):
+        exit(0)
+    if(fieldCount>1):
+        print("")
+
     field = []
     for i in range (0, n):
         row = list(sys.stdin.readline().strip())
@@ -35,5 +39,4 @@ for nm in sys.stdin:
     print("Field #%d:"%fieldCount)
     minesweeper(n,m,field)
     fieldCount = fieldCount+1
-    print("")
 exit(0)
