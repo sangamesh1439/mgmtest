@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon --verbose --watch src  -e py,test --exec 'cat src/10189/10189.test | python3 src/10189/10189.py'"
+    "start":"nodemon --verbose --watch src  -e py,test --exec 'cat src/10137/10137.test | python3 src/10137/10137.py'"
   },
   "repository": "git@github.com:sangamesh1439/mgmtest.git",
   "author": "“sangameshrently” <sangamesh.r@rently.com>",
