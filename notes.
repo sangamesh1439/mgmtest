@@ -1,0 +1,1 @@
+cat 10189.test|nodemon -x python3 10189.py 
